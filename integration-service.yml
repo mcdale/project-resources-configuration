@@ -1,0 +1,11 @@
+logging:
+  level:
+    root: INFO
+    org.springframework.cloud.context.config: DEBUG
+    com.example: DEBUG
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://discovery:8761/eureka/
+  instance:
+    preferIpAddress: true
