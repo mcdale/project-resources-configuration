@@ -1,2 +1,2 @@
 server:
-  post:389
+  port:389
